@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply bg-Dark_Slate_Grey rounded-lg w-[100%] h-12 text-white font-semibold mt-3 hover:bg-Tomato cursor-pointer;
+  }
+  .success_lis {
+    @apply flex my-3 text-base;
+  }
+  .suscribtion_details {
+    @apply ml-3;
+  }
+  .correo_invalido {
+    @apply bg-TomatoDegrade border-solid border-Tomato text-Tomato transition-all;
+  }
+  .msj_error {
+    @apply absolute text-Tomato text-sm font-semibold translate-x-[198px] translate-y-[-85px] sm:translate-x-[268px];
+  }
+}
